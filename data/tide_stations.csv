@@ -1,0 +1,61 @@
+﻿station_name,station_id,lat,lon,type
+    Hansville,9445526,47.9183,-122.545,Subordinate
+        Edmonds,9447427,47.8133,-122.383,Subordinate
+"        Kingston, Appletree Cove",9445639,47.7967,-122.493,Subordinate
+        Port Jefferson,9445683,47.7467,-122.477,Subordinate
+        Port Madison,9445753,47.705,-122.525,Subordinate
+"        Meadow Point, Shilshole Bay",9447265,47.6883,-122.403,Subordinate
+"        Poulsbo, Liberty Bay",9445719,47.725,-122.638,Subordinate
+"        Brownsville, Port Orchard",9445832,47.6517,-122.615,Subordinate
+"        SEATTLE (Madison St.), Elliott Bay",9447130,47.6026,-122.3393,Harmonic
+"        Lockheed Shipyard, Harbor Island",9447110,47.585,-122.362,Subordinate
+"        Duwamish Waterway, Eighth Ave. South",9447029,47.535,-122.322,Subordinate
+"        Eagle Harbor, Bainbridge Island",9445882,47.62,-122.515,Subordinate
+        Port Blakely,9445913,47.5967,-122.51,Subordinate
+"        Clam Bay, Rich Passage",9445938,47.5733,-122.543,Subordinate
+"        Bremerton, Sinclair Inlet, Port Orchard",9445958,47.5617,-122.623,Harmonic
+"        Tracyton, Dyes Inlet",9445901,47.61,-122.66,Subordinate
+"        Harper, Yukon Harbor",9445993,47.5233,-122.517,Subordinate
+"        Point Vashon, Vashon Island",9446025,47.5117,-122.463,Subordinate
+"        Des Moines, East Passage",9446248,47.4,-122.328,Subordinate
+"        Burton, Quartermaster Hbr. (inside), Vashon I.",9446254,47.395,-122.463,Subordinate
+"        Tahlequah, Neil Pt., Dalco Passage, Vashon I.",9446375,47.3333,-122.507,Subordinate
+        Gig Harbor,9446369,47.34,-122.588,Subordinate
+"        Tacoma, Commencement Bay, Sitcum Waterway",9446484,47.2667,-122.4133,Harmonic
+        Tacoma Narrows Bridge,9446486,47.2717,-122.552,Subordinate
+"        Arletta, Hale Passage",9446491,47.28,-122.652,Subordinate
+"        Horsehead Bay, Carr Inlet",9446451,47.3017,-122.682,Subordinate
+"        Wauna, Carr Inlet",9446291,47.3783,-122.634,Harmonic
+"        Home, Von Geldern Cove, Carr Inlet",9446500,47.275,-122.758,Subordinate
+"        Steilacoom, Cormorant Passage",9446714,47.1733,-122.603,Subordinate
+"        Yoman Point, Anderson Island, Balch Passage",9446705,47.18,-122.675,Harmonic
+"        SANDY POINT ANDERSON ISLAND, PUGET SOUND",9446804,47.153,-122.6751,Harmonic
+"        Dupont Wharf, Nisqually Reach",9446828,47.1183,-122.665,Subordinate
+"        Longbranch, Filucy Bay",9446638,47.21,-122.753,Subordinate
+"        Devils Head, Drayton Passage",9446671,47.1667,-122.763,Subordinate
+        Henderson Inlet,9446752,47.155,-122.838,Subordinate
+"        McMicken Island, Case Inlet",9446583,47.2467,-122.862,Subordinate
+"        Vaughn, Case Inlet",9446366,47.3417,-122.775,Subordinate
+"        Allyn, Case Inlet",9446281,47.3833,-122.823,Subordinate
+"        Walkers Landing, Pickering Passage",9446489,47.2817,-122.923,Subordinate
+"        Shelton, Oakland Bay",9446628,47.215,-123.083,Subordinate
+"        Arcadia, Totten Inlet",9446666,47.1967,-122.938,Subordinate
+"        Barron Point, Little Skookum Inlet Entrance",9446742,47.1567,-123.008,Subordinate
+"        Rocky Point, Eld Inlet",TWC1115,47.0817,-123.005,Subordinate
+"        Dofflemeyer Point, Boston Hbr., Budd Inlet",9446800,47.1417,-122.903,Subordinate
+"        Budd Inlet, Olympia Shoal",9446807,47.0983,-122.895,Harmonic
+"        Olympia, Budd Inlet",9446969,47.06,-122.903,Subordinate
+    Port Ludlow,9445017,47.925,-122.68,Subordinate
+        Foulweather Bluff,9445016,47.9267,-122.617,Harmonic
+        Port Gamble,9445059,47.8583,-122.58,Subordinate
+        Lofall,9445088,47.815,-122.657,Subordinate
+        Bangor Wharf,9445133,47.7483,-122.727,Harmonic
+"        Zelatched Point, Dabob Bay",9445269,47.7117,-122.822,Subordinate
+"        Whitney Point, Dabob Bay",9445246,47.7617,-122.85,Subordinate
+"        Quilcene, Quilcene Bay, Dabob Bay",9445272,47.8,-122.858,Subordinate
+"        Seabeck, Seabeck Bay",9445303,47.6417,-122.828,Subordinate
+        Pleasant Harbor,9445293,47.665,-122.912,Subordinate
+        Triton Head,9445326,47.6033,-122.982,Subordinate
+        Ayock Point,9445388,47.5083,-123.052,Subordinate
+        Union,9445478,47.3583,-123.098,Harmonic
+        Lynch Cove Dock,9445441,47.4183,-122.9,Subordinate

@@ -1,0 +1,253 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,7.0.7*
+G04 #@! TF.CreationDate,2023-09-07T11:23:27-07:00*
+G04 #@! TF.ProjectId,bivariate-bivalve,62697661-7269-4617-9465-2d626976616c,rev?*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Copper,L2,Bot*
+G04 #@! TF.FilePolarity,Positive*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 7.0.7) date 2023-09-07 11:23:27*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 Aperture macros list*
+%AMRoundRect*
+0 Rectangle with rounded corners*
+0 $1 Rounding radius*
+0 $2 $3 $4 $5 $6 $7 $8 $9 X,Y pos of 4 corners*
+0 Add a 4 corners polygon primitive as box body*
+4,1,4,$2,$3,$4,$5,$6,$7,$8,$9,$2,$3,0*
+0 Add four circle primitives for the rounded corners*
+1,1,$1+$1,$2,$3*
+1,1,$1+$1,$4,$5*
+1,1,$1+$1,$6,$7*
+1,1,$1+$1,$8,$9*
+0 Add four rect primitives between the rounded corners*
+20,1,$1+$1,$2,$3,$4,$5,0*
+20,1,$1+$1,$4,$5,$6,$7,0*
+20,1,$1+$1,$6,$7,$8,$9,0*
+20,1,$1+$1,$8,$9,$2,$3,0*%
+G04 Aperture macros list end*
+G04 #@! TA.AperFunction,ComponentPad*
+%ADD10C,1.600000*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,ComponentPad*
+%ADD11O,1.600000X1.600000*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,ComponentPad*
+%ADD12R,1.700000X1.700000*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,ComponentPad*
+%ADD13O,1.700000X1.700000*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,ComponentPad*
+%ADD14C,1.295400*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,ComponentPad*
+%ADD15R,1.295400X1.295400*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,ComponentPad*
+%ADD16RoundRect,0.250001X0.799999X0.799999X-0.799999X0.799999X-0.799999X-0.799999X0.799999X-0.799999X0*%
+G04 #@! TD*
+G04 APERTURE END LIST*
+D10*
+G04 #@! TO.P,R1,1*
+G04 #@! TO.N,Net-(J1-Pin_7)*
+X67050000Y-56750000D03*
+D11*
+G04 #@! TO.P,R1,2*
+G04 #@! TO.N,Net-(J2-Pin_1)*
+X59430000Y-56750000D03*
+G04 #@! TD*
+D12*
+G04 #@! TO.P,J1,1,Pin_1*
+G04 #@! TO.N,unconnected-(J1-Pin_1-Pad1)*
+X75310000Y-40805000D03*
+D13*
+G04 #@! TO.P,J1,2,Pin_2*
+G04 #@! TO.N,unconnected-(J1-Pin_2-Pad2)*
+X77850000Y-40805000D03*
+G04 #@! TO.P,J1,3,Pin_3*
+G04 #@! TO.N,unconnected-(J1-Pin_3-Pad3)*
+X75310000Y-43345000D03*
+G04 #@! TO.P,J1,4,Pin_4*
+G04 #@! TO.N,unconnected-(J1-Pin_4-Pad4)*
+X77850000Y-43345000D03*
+G04 #@! TO.P,J1,5,Pin_5*
+G04 #@! TO.N,unconnected-(J1-Pin_5-Pad5)*
+X75310000Y-45885000D03*
+G04 #@! TO.P,J1,6,Pin_6*
+G04 #@! TO.N,Net-(D1-VSS)*
+X77850000Y-45885000D03*
+G04 #@! TO.P,J1,7,Pin_7*
+G04 #@! TO.N,Net-(J1-Pin_7)*
+X75310000Y-48425000D03*
+G04 #@! TO.P,J1,8,Pin_8*
+G04 #@! TO.N,unconnected-(J1-Pin_8-Pad8)*
+X77850000Y-48425000D03*
+G04 #@! TO.P,J1,9,Pin_9*
+G04 #@! TO.N,Net-(J1-Pin_9)*
+X75310000Y-50965000D03*
+G04 #@! TO.P,J1,10,Pin_10*
+G04 #@! TO.N,unconnected-(J1-Pin_10-Pad10)*
+X77850000Y-50965000D03*
+G04 #@! TO.P,J1,11,Pin_11*
+G04 #@! TO.N,unconnected-(J1-Pin_11-Pad11)*
+X75310000Y-53505000D03*
+G04 #@! TO.P,J1,12,Pin_12*
+G04 #@! TO.N,Net-(J1-Pin_12)*
+X77850000Y-53505000D03*
+G04 #@! TO.P,J1,13,Pin_13*
+G04 #@! TO.N,unconnected-(J1-Pin_13-Pad13)*
+X75310000Y-56045000D03*
+G04 #@! TO.P,J1,14,Pin_14*
+G04 #@! TO.N,unconnected-(J1-Pin_14-Pad14)*
+X77850000Y-56045000D03*
+G04 #@! TO.P,J1,15,Pin_15*
+G04 #@! TO.N,unconnected-(J1-Pin_15-Pad15)*
+X75310000Y-58585000D03*
+G04 #@! TO.P,J1,16,Pin_16*
+G04 #@! TO.N,unconnected-(J1-Pin_16-Pad16)*
+X77850000Y-58585000D03*
+G04 #@! TO.P,J1,17,Pin_17*
+G04 #@! TO.N,unconnected-(J1-Pin_17-Pad17)*
+X75310000Y-61125000D03*
+G04 #@! TO.P,J1,18,Pin_18*
+G04 #@! TO.N,unconnected-(J1-Pin_18-Pad18)*
+X77850000Y-61125000D03*
+G04 #@! TO.P,J1,19,Pin_19*
+G04 #@! TO.N,unconnected-(J1-Pin_19-Pad19)*
+X75310000Y-63665000D03*
+G04 #@! TO.P,J1,20,Pin_20*
+G04 #@! TO.N,unconnected-(J1-Pin_20-Pad20)*
+X77850000Y-63665000D03*
+G04 #@! TO.P,J1,21,Pin_21*
+G04 #@! TO.N,unconnected-(J1-Pin_21-Pad21)*
+X75310000Y-66205000D03*
+G04 #@! TO.P,J1,22,Pin_22*
+G04 #@! TO.N,unconnected-(J1-Pin_22-Pad22)*
+X77850000Y-66205000D03*
+G04 #@! TO.P,J1,23,Pin_23*
+G04 #@! TO.N,unconnected-(J1-Pin_23-Pad23)*
+X75310000Y-68745000D03*
+G04 #@! TO.P,J1,24,Pin_24*
+G04 #@! TO.N,unconnected-(J1-Pin_24-Pad24)*
+X77850000Y-68745000D03*
+G04 #@! TO.P,J1,25,Pin_25*
+G04 #@! TO.N,unconnected-(J1-Pin_25-Pad25)*
+X75310000Y-71285000D03*
+G04 #@! TO.P,J1,26,Pin_26*
+G04 #@! TO.N,unconnected-(J1-Pin_26-Pad26)*
+X77850000Y-71285000D03*
+G04 #@! TO.P,J1,27,Pin_27*
+G04 #@! TO.N,unconnected-(J1-Pin_27-Pad27)*
+X75310000Y-73825000D03*
+G04 #@! TO.P,J1,28,Pin_28*
+G04 #@! TO.N,unconnected-(J1-Pin_28-Pad28)*
+X77850000Y-73825000D03*
+G04 #@! TO.P,J1,29,Pin_29*
+G04 #@! TO.N,unconnected-(J1-Pin_29-Pad29)*
+X75310000Y-76365000D03*
+G04 #@! TO.P,J1,30,Pin_30*
+G04 #@! TO.N,unconnected-(J1-Pin_30-Pad30)*
+X77850000Y-76365000D03*
+G04 #@! TO.P,J1,31,Pin_31*
+G04 #@! TO.N,unconnected-(J1-Pin_31-Pad31)*
+X75310000Y-78905000D03*
+G04 #@! TO.P,J1,32,Pin_32*
+G04 #@! TO.N,unconnected-(J1-Pin_32-Pad32)*
+X77850000Y-78905000D03*
+G04 #@! TO.P,J1,33,Pin_33*
+G04 #@! TO.N,unconnected-(J1-Pin_33-Pad33)*
+X75310000Y-81445000D03*
+G04 #@! TO.P,J1,34,Pin_34*
+G04 #@! TO.N,unconnected-(J1-Pin_34-Pad34)*
+X77850000Y-81445000D03*
+G04 #@! TO.P,J1,35,Pin_35*
+G04 #@! TO.N,unconnected-(J1-Pin_35-Pad35)*
+X75310000Y-83985000D03*
+G04 #@! TO.P,J1,36,Pin_36*
+G04 #@! TO.N,unconnected-(J1-Pin_36-Pad36)*
+X77850000Y-83985000D03*
+G04 #@! TO.P,J1,37,Pin_37*
+G04 #@! TO.N,unconnected-(J1-Pin_37-Pad37)*
+X75310000Y-86525000D03*
+G04 #@! TO.P,J1,38,Pin_38*
+G04 #@! TO.N,unconnected-(J1-Pin_38-Pad38)*
+X77850000Y-86525000D03*
+G04 #@! TO.P,J1,39,Pin_39*
+G04 #@! TO.N,unconnected-(J1-Pin_39-Pad39)*
+X75310000Y-89065000D03*
+G04 #@! TO.P,J1,40,Pin_40*
+G04 #@! TO.N,unconnected-(J1-Pin_40-Pad40)*
+X77850000Y-89065000D03*
+G04 #@! TD*
+D14*
+G04 #@! TO.P,U1,14,VCC*
+G04 #@! TO.N,Net-(D1-VDD)*
+X84305000Y-43895000D03*
+G04 #@! TO.P,U1,13,\u002A4OE*
+G04 #@! TO.N,Net-(D1-VSS)*
+X84305000Y-46435000D03*
+G04 #@! TO.P,U1,12,4A*
+X84305000Y-48975000D03*
+G04 #@! TO.P,U1,11,4Y*
+G04 #@! TO.N,unconnected-(U1-4Y-Pad11)*
+X84305000Y-51515000D03*
+G04 #@! TO.P,U1,10,\u002A3OE*
+G04 #@! TO.N,Net-(D1-VSS)*
+X84305000Y-54055000D03*
+G04 #@! TO.P,U1,9,3A*
+X84305000Y-56595000D03*
+G04 #@! TO.P,U1,8,3Y*
+G04 #@! TO.N,unconnected-(U1-3Y-Pad8)*
+X84305000Y-59135000D03*
+G04 #@! TO.P,U1,7,GND*
+G04 #@! TO.N,Net-(D1-VSS)*
+X91925000Y-59135000D03*
+G04 #@! TO.P,U1,6,2Y*
+G04 #@! TO.N,unconnected-(U1-2Y-Pad6)*
+X91925000Y-56595000D03*
+G04 #@! TO.P,U1,5,2A*
+G04 #@! TO.N,Net-(D1-VSS)*
+X91925000Y-54055000D03*
+G04 #@! TO.P,U1,4,\u002A2OE*
+X91925000Y-51515000D03*
+G04 #@! TO.P,U1,3,1Y*
+G04 #@! TO.N,Net-(U1-1Y)*
+X91925000Y-48975000D03*
+G04 #@! TO.P,U1,2,1A*
+G04 #@! TO.N,Net-(J1-Pin_12)*
+X91925000Y-46435000D03*
+D15*
+G04 #@! TO.P,U1,1,\u002A1OE*
+G04 #@! TO.N,Net-(D1-VSS)*
+X91925000Y-43895000D03*
+G04 #@! TD*
+D16*
+G04 #@! TO.P,J5,1,Pin_1*
+G04 #@! TO.N,Net-(D1-VSS)*
+X101450000Y-36910000D03*
+G04 #@! TD*
+G04 #@! TO.P,J4,1,Pin_1*
+G04 #@! TO.N,Net-(D1-VDD)*
+X108435000Y-36910000D03*
+G04 #@! TD*
+G04 #@! TO.P,J3,1,Pin_1*
+G04 #@! TO.N,Net-(J1-Pin_9)*
+X53150000Y-69490000D03*
+G04 #@! TD*
+G04 #@! TO.P,J2,1,Pin_1*
+G04 #@! TO.N,Net-(J2-Pin_1)*
+X53150000Y-56790000D03*
+G04 #@! TD*
+D10*
+G04 #@! TO.P,C19,1*
+G04 #@! TO.N,Net-(D1-VDD)*
+X107165000Y-45800000D03*
+G04 #@! TO.P,C19,2*
+G04 #@! TO.N,Net-(D1-VSS)*
+X102165000Y-45800000D03*
+G04 #@! TD*
+M02*
