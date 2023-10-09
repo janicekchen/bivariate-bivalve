@@ -84,7 +84,4 @@ my_beaches$LED_status <- ifelse(my_beaches$FINALSTATUS == "Closed", 0,
                                 ifelse(my_beaches$clam_tide_check == TRUE, 1,
                                        ifelse(my_beaches$geoduck_tide_check == TRUE, 2, 0)))
 
-
-
-  # "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?begin_date=20250801&end_date=20250831&station=8557863&product=predictions&datum=MLLW&time_zone=lst_ldt&interval=hilo&units=english&application=DataAPI_Sample&format=xml"
-## READING IN BEACH LIST WITH CORRESPONDING TIDE STATION DATA
+write.csv(my_beaches, "data/processed/beaches_ledstatus.csv")
