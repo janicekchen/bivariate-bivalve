@@ -49,13 +49,11 @@ tide_stations <- st_as_sf(tide_stations, coords = c("lon", "lat"))
 beaches_with_tide <- map_beaches %>%
   select(BEACHNAME, BIDN) %>%
   st_join(tide_stations, st_nearest_feature)
-  
 
+write.csv(st_drop_geometry(beaches_with_tide), "data/processed/beaches_with_tide.csv", row.names=FALSE)
 
 plot(tide_stations[0], add = TRUE, col = "red")
 
-
-?plot
 
 ### B. HEALTH DATA
 
