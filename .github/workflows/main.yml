@@ -6,6 +6,8 @@ on:
 #  schedule:
 #    - cron:  '54 3 * * *'
     
+permissions:
+  contents: write
 
 
 jobs: 
@@ -29,7 +31,7 @@ jobs:
        R -e 'install.packages("dplyr")'
       
     # Run R script
-    - name: Update
+    - name: Update data
       run: Rscript r-scripts/2_update_data.R
       
 # Add new files in data folder, commit along with other modified files, push
