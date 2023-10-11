@@ -3,7 +3,7 @@ name: bivariate_updatedata
 # Controls when the action will run.
 on:
   schedule:
-    - cron:  '0 13 * * *'
+    - cron:  '26 3 * * *'
 
 
 jobs: 
