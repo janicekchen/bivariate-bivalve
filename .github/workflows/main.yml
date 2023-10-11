@@ -32,6 +32,14 @@ jobs:
     - name: Update
       run: Rscript r-scripts/2_update_data.R
       
- # Add new files in data folder, commit along with other modified files, push
-    - name: Commit changes
-      uses: EndBug/add-and-commit@v9
+# Add new files in data folder, commit along with other modified files, push
+    - name: Commit files
+      run: |
+        git config --local user.name actions-user
+        git config --local user.email "actions@github.com"
+        git add data/*
+        git commit -am "GH ACTION bivalve-update $(date)"
+        git push origin main
+      env:
+        REPO_KEY: ${{secrets.GITHUB_TOKEN}}
+        username: github-actions
