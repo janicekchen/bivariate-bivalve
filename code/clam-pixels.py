@@ -12,8 +12,9 @@ pixels = neopixel.NeoPixel(board.D12, 18, brightness = 0.3)
 
 # reading in data
 beach_data = pd.read_csv("some CSV link")
-beach_data = pd.DataFrame(beach_data) # do i need this line?
-
+# convert to integer
+# do some downloading here 
+# bring in the request library
 
 for i in range(0, 14):
     # select value of led_status for a row
@@ -27,3 +28,6 @@ for i in range(0, 14):
     else:
         pixels[i] = green
 
+pixels[15] = red
+pixels[16] = orange
+pixels[17] = green
