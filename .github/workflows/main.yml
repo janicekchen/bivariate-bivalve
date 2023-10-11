@@ -3,7 +3,7 @@ name: bivariate_updatedata
 # Controls when the action will run.
 on:
   schedule:
-    - cron:  '40 3 * * *'
+    - cron:  '54 3 * * *'
 
 
 jobs: 
@@ -28,7 +28,7 @@ jobs:
       
     # Run R script
     - name: Update
-      run: Rscript r-scripts/2_update_data.R
+      run: Rscript r-scripts/3_test_script.R
       
  # Add new files in data folder, commit along with other modified files, push
     - name: Commit files
