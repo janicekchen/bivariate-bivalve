@@ -10,6 +10,7 @@ library(dplyr)
 my_beaches <- read.csv("../data/processed/beaches_with_tide.csv") %>%
   distinct()
 
+read.csv("./")
 ## PULLING WASHINGTON STATE DEPARTMENT OF FISH AND WILDLIFE BEACH DATA
 
 beach_url <- "https://services8.arcgis.com/rGGrs6HCnw87OFOT/arcgis/rest/services/Recreational_Shellfish_Beaches/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson" # API endpoint
