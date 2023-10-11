@@ -86,5 +86,8 @@ my_beaches$LED_status <- ifelse(my_beaches$FINALSTATUS == "Closed", 0,
 
 todays_date <- as.character(Sys.time())
 todays_date <- substr(todays_date, 0, 10)
-file_name <- paste0("data/processed/", todays_date, "_bivariatebivalve-ledstatus.csv")
-write.csv(my_beaches, file_name)
+# file_name <- paste0("data/processed/", todays_date, "_bivariatebivalve-ledstatus.csv")
+# write.csv(my_beaches, file_name)
+
+my_beaches$date <- todays_date
+write.csv(my_beaches, "bivariatebivalve-ledstatus.csv")
