@@ -90,4 +90,4 @@ todays_date <- substr(todays_date, 0, 10)
 # write.csv(my_beaches, file_name)
 
 my_beaches$date <- todays_date
-write.csv(my_beaches, "bivariatebivalve-ledstatus.csv")
+write.csv(my_beaches, "data/processed/bivariatebivalve-ledstatus.csv")
