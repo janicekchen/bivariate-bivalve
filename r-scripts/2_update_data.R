@@ -7,7 +7,7 @@ library(dplyr)
 
 ## READING IN DATA FRAME CONTAINING MY BEACHES AND THEIR CORRESPONDING TIDE STATIONS
 ## I'll be using this list to filter WDFW beaches, and pull NOAA tide data
-my_beaches <- read.csv("data/processed/beaches_with_tide.csv") %>%
+my_beaches <- read.csv("../data/processed/beaches_with_tide.csv") %>%
   distinct()
 
 ## PULLING WASHINGTON STATE DEPARTMENT OF FISH AND WILDLIFE BEACH DATA
@@ -84,4 +84,4 @@ my_beaches$LED_status <- ifelse(my_beaches$FINALSTATUS == "Closed", 0,
                                 ifelse(my_beaches$clam_tide_check == TRUE, 1,
                                        ifelse(my_beaches$geoduck_tide_check == TRUE, 2, 0)))
 
-write.csv(my_beaches, "data/processed/beaches_ledstatus.csv")
+write.csv(my_beaches, "../data/processed/beaches_ledstatus.csv")
