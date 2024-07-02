@@ -2,9 +2,9 @@ name: bivariate_updatedata
 
 # Controls when the action will run.
 on:
- workflow_dispatch
- #schedule:
- #- cron:  '05 11 * * *'
+ #workflow_dispatch
+ schedule:
+ - cron:  '05 11 * * *'
     
 permissions:
   contents: write
