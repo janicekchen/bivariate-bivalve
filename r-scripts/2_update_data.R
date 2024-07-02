@@ -44,14 +44,18 @@ tide_boolean <- data.frame(matrix(nrow=0, ncol=3)) # generating an empty data fr
 names(tide_boolean) <- c("station_id", "clam_tide_check", "geoduck_tide_check") #renaming columns
 
 # looping through tide stations
-lapply(tide_stations, function(station){
+invisible(lapply(tide_stations, function(station){
   tides_raw <- GET(paste0(noaa_api_url, noaa_params, "&station=", station)) # API request
   tides_data <- fromJSON(rawToChar(tides_raw$content)) # parsing to JSON
   tides_df <- tides_data$predictions %>%
     filter(type == "L")# parsing to data frame
   
+  tides_df$v <- as.numeric(tides_df$v)
+  
   tides_df$hour <- hour(tides_df$t) # converting date/time column to a hour column 
   
+  print(station)
+  print(tides_df)
   # check to see if there is a daytime low 
   tides_df$daytimelow <- tides_df$hour >= 8 & tides_df$hour <= 18 
   
@@ -69,7 +73,7 @@ lapply(tide_stations, function(station){
   # bind to big boolean data frame
   tide_boolean <<- rbind(tide_boolean, t)
 
-})
+}))
 
 # now we have a data frame that shows whether tides will be good for clamming and geoducking
 # joining this to my list of beaches
