@@ -2,7 +2,7 @@ name: bivariate_updatedata
 
 # Controls when the action will run.
 on:
- # workflow_dispatch
+ workflow_dispatch
  schedule:
  - cron:  '05 11 * * *'
     
